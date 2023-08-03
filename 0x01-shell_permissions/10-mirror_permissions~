@@ -1,0 +1,1 @@
+#!/bin/bash chmod $mode=$(stat -c "%a" olleh) hello
