@@ -1,0 +1,8 @@
+import os
+
+def print_absolute_path():
+    absolute_path = os.path.abspath(os.getcwd())
+    print("Absolute path of the current working directory:", absolute_path)
+
+if __name__ == "__main__":
+    print_absolute_path() os
